@@ -147,8 +147,8 @@ module "worker" {
   k8s = "${ var.k8s }"
   name = "${ var.name }"
   volume_size = {
-    ebs = 250
-    root = 52
+    ebs = 8
+    root = 8
   }
   worker-name = "general"
 
