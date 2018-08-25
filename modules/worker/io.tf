@@ -24,8 +24,8 @@ variable "security-group-id" {}
 variable "subnet-id" {}
 variable "volume_size" {
   default = {
-    ebs = 250
-    root = 52
+    ebs = 8
+    root = 8
   }
 }
 variable "vpc-id" {}

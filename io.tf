@@ -29,10 +29,10 @@ variable "dns-service-ip" { default = "10.3.0.10" }
 variable "etcd-ips" { default = "10.0.10.10,10.0.10.11,10.0.10.12" }
 variable "instance-type" {
   default = {
-    bastion = "t2.nano"
-    pki = "t2.nano"
-    etcd = "m3.large"
-    worker = "m3.large"
+    bastion = "t2.micro"
+    pki = "t2.micro"
+    etcd = "t2.micro"
+    worker = "t2.micro"
   }
 }
 variable "internal-tld" {}
