@@ -22,7 +22,7 @@ destroy: ; terraform destroy
 get: ; terraform get
 
 ## generate variables
-init: terraform.tfvars
+init:
 
 ## terraform plan
 plan: get init
