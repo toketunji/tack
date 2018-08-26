@@ -25,7 +25,7 @@ export DIR_KUBECONFIG := .kube
 export AWS_REGION           ?= eu-west-1
 export COREOS_CHANNEL       ?= stable
 export COREOS_VM_TYPE       ?= hvm
-export CLUSTER_NAME         ?= tealO
+export CLUSTER_NAME         ?= tealo
 
 export AWS_EC2_KEY_NAME     ?= kz8s-$(CLUSTER_NAME)
 export AWS_EC2_KEY_PATH     := ${DIR_KEY_PAIR}/${AWS_EC2_KEY_NAME}.pem
